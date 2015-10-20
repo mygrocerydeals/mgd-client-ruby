@@ -18,6 +18,5 @@ require 'my_grocery_deals/controllers/category_controller.rb'
 require 'my_grocery_deals/controllers/chains_controller.rb'
 require 'my_grocery_deals/controllers/chain_controller.rb'
 require 'my_grocery_deals/controllers/geo_controller.rb'
-require 'my_grocery_deals/controllers/list_controller.rb'
 
 # Models
