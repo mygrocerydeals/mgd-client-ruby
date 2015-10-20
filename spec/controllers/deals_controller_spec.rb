@@ -2,7 +2,7 @@ require "spec_helper"
 describe "DealsController" do
   let(:client) { MyGroceryDeals::DealsController.new(
     MyGroceryDeals::Configuration::VERSION,
-    MyGroceryDeals::Configuration::X_API_KEY,
+    MyGroceryDeals::Configuration::X_API_KEY
     )}
   describe "get_deals_count" do
     it 'returns the deals count' do
