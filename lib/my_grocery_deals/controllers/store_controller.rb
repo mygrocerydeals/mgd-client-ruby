@@ -40,6 +40,7 @@ module MyGroceryDeals
       if !(response.code.between?(200,206)) # [200,206] = HTTP OK
         raise APIException.new "HTTP Response Not OK", response.code, response.raw_body
       end
+      response.body
     end
 
   end
